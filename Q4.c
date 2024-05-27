@@ -14,7 +14,7 @@ int main() {
     FILE* fp;
 
     // Open the file for writing
-    fp = fopen("Exponential_Numbers.txt", "w");
+    fp = fopen("Q_4_Exponential_Numbers.txt", "w");
     if (fp == NULL) {
         printf("Error opening file!\n");
         return 1;
